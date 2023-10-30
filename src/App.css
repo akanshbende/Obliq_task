@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500&family=Noto+Sans:wght@300;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif; */
+/* .searchbar{
+    
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.link-underline {
+  position: absolute;
+  /* width: 100%; */
+  top: 0.85em;
+  bottom: 0.15em;
+  left: -3%;
+  right: -3%;
+  background-color: #c1f3fe;
+  z-index: -1;
+}
+
+.button-get-started {
+  background-color: #1d1d28;
+  color: white;
+  font-weight: 800;
+
+  font-family: "Noto Sans Display";
+  border-radius: 25px;
+  padding: 0 40px;
+}
+.search-input {
+  outline: none;
+  font-weight: 600;
+}
+.search-bar-stack {
+  box-shadow: 4px 5px 0px black;
+}
